@@ -3,6 +3,7 @@ In the project AJAX is used for the api calling which is in the Account Services
 
 # BELOW THE CODE in Account Services File
 
+Below Code for Ajax GET API
   public getEstimateDetails(estimateDetailsHandler: RespHandler): void {
     this.get({
       url: "/estimate_details_v1",
